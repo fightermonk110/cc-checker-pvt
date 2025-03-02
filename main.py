@@ -2,16 +2,6 @@
 #Channel = @satyamnetwork
 # Copy kro Bs Credit De dena Dost 
 
-import time
-from keep_alive import keep_alive
-
-# Start the keep-alive server
-keep_alive()
-
-# Your bot logic here
-while True:
-    print("Bot is running...")
-    time.sleep(60)  # Simulating bot activity every minute
 
 import threading
 import requests
